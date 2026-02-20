@@ -34,5 +34,6 @@ void loop() {
     Serial.println(humidity);
     Serial.print("Temperature: ");
     Serial.println(temperature);
+    Serial.println("°C");
     delay(2000);
 }
